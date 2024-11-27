@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>موقع الكورسات</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- الرأس (Header) -->
@@ -16,6 +16,8 @@
                     <li><a href="#free-courses">كورسات مجانية</a></li>
                     <li><a href="#paid-courses">كورسات مدفوعة</a></li>
                     <li><a href="#top-courses">أبرز الكورسات</a></li>
+                    <li><a href="#programming-courses">كورسات برمجة</a></li>
+                    <li><a href="#business-courses">كورسات إدارة الأعمال</a></li>
                 </ul>
             </nav>
         </div>
@@ -26,9 +28,9 @@
         <div class="container">
             <h2>كورسات مجانية</h2>
             <ul>
-                <li><a href="#">دورة HTML و CSS</a></li>
-                <li><a href="#">دورة البرمجة بلغة Python</a></li>
-                <li><a href="#">دورة تصميم المواقع</a></li>
+                <li><a href="https://www.freecodecamp.org">دورة HTML و CSS</a></li>
+                <li><a href="https://www.codecademy.com">دورة البرمجة بلغة Python</a></li>
+                <li><a href="https://www.udemy.com">دورة تصميم المواقع</a></li>
             </ul>
         </div>
     </section>
@@ -38,9 +40,9 @@
         <div class="container">
             <h2>كورسات مدفوعة</h2>
             <ul>
-                <li><a href="#">دورة تعلم الذكاء الاصطناعي</a></li>
-                <li><a href="#">دورة تطوير تطبيقات الموبايل</a></li>
-                <li><a href="#">دورة نظم التشغيل المتقدمة</a></li>
+                <li><a href="https://www.coursera.org">دورة تعلم الذكاء الاصطناعي</a></li>
+                <li><a href="https://www.udacity.com">دورة تطوير تطبيقات الموبايل</a></li>
+                <li><a href="https://www.linkedin.com/learning">دورة نظم التشغيل المتقدمة</a></li>
             </ul>
         </div>
     </section>
@@ -50,9 +52,33 @@
         <div class="container">
             <h2>أبرز الكورسات</h2>
             <ul>
-                <li><a href="#">دورة تعلم البرمجة بلغة JavaScript</a></li>
-                <li><a href="#">دورة تحليل البيانات</a></li>
-                <li><a href="#">دورة إدارة الأعمال</a></li>
+                <li><a href="https://www.edx.org">دورة تعلم البرمجة بلغة JavaScript</a></li>
+                <li><a href="https://www.khanacademy.org">دورة تحليل البيانات</a></li>
+                <li><a href="https://www.skillshare.com">دورة إدارة الأعمال</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- كورسات البرمجة -->
+    <section id="programming-courses">
+        <div class="container">
+            <h2>كورسات البرمجة</h2>
+            <ul>
+                <li><a href="https://www.codecademy.com">دورة البرمجة بلغة C++</a></li>
+                <li><a href="https://www.udemy.com">دورة تطوير تطبيقات الويب</a></li>
+                <li><a href="https://www.coursera.org">دورة تعلم Java</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- كورسات إدارة الأعمال -->
+    <section id="business-courses">
+        <div class="container">
+            <h2>كورسات إدارة الأعمال</h2>
+            <ul>
+                <li><a href="https://www.edx.org">دورة استراتيجيات الأعمال</a></li>
+                <li><a href="https://www.skillshare.com">دورة القيادة الفعالة</a></li>
+                <li><a href="https://www.coursera.org">دورة إدارة المشاريع</a></li>
             </ul>
         </div>
     </section>
@@ -63,98 +89,5 @@
             <p>جميع الحقوق محفوظة &copy; 2024</p>
         </div>
     </footer>
-    <style>
-        /* ملف style.css */
-
-/* الأساسيات */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-h1 {
-    text-align: center;
-    color: #333;
-}
-
-h2 {
-    color: #444;
-}
-
-/* التنسيق للرأس */
-header {
-    background-color: #333;
-    color: white;
-    padding: 20px 0;
-}
-
-header nav ul {
-    list-style-type: none;
-    padding: 0;
-    text-align: center;
-}
-
-header nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-header nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-header nav ul li a:hover {
-    text-decoration: underline;
-}
-
-/* أقسام الكورسات */
-section {
-    padding: 40px 0;
-    background-color: white;
-    margin: 20px 0;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-section ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-section ul li {
-    margin: 10px 0;
-}
-
-section ul li a {
-    text-decoration: none;
-    font-size: 18px;
-    color: #333;
-}
-
-section ul li a:hover {
-    color: #007BFF;
-}
-
-/* الفوتر */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-    </style>
 </body>
 </html>
