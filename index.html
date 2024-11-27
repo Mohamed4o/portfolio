@@ -1,48 +1,67 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>كورسات مجانية بشهادات معتمدة</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>موقع الكورسات</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- الرأس (Header) -->
     <header>
-        <h1>كورسات مجانية بشهادات معتمدة</h1>
-        <p>اكتشف أفضل المنصات التعليمية للحصول على شهادات معترف بها.</p>
+        <div class="container">
+            <h1>موقع الكورسات</h1>
+            <nav>
+                <ul>
+                    <li><a href="#free-courses">كورسات مجانية</a></li>
+                    <li><a href="#paid-courses">كورسات مدفوعة</a></li>
+                    <li><a href="#top-courses">أبرز الكورسات</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        <section class="courses">
-            <div class="course">
-                <h2>EdX (جامعة هارفارد)</h2>
-                <p>كورسات من أرقى الجامعات العالمية مثل هارفارد وMIT.</p>
-                <a href="https://www.edx.org" target="_blank">زيارة الموقع</a>
-            </div>
-            <div class="course">
-                <h2>Coursera</h2>
-                <p>دورات تعليمية مع شهادات معتمدة في مختلف المجالات.</p>
-                <a href="https://www.coursera.org" target="_blank">زيارة الموقع</a>
-            </div>
-            <div class="course">
-                <h2>FutureLearn</h2>
-                <p>تعلم مع أفضل الجامعات والشركات العالمية.</p>
-                <a href="https://www.futurelearn.com" target="_blank">زيارة الموقع</a>
-            </div>
-            <div class="course">
-                <h2>Udemy</h2>
-                <p>مجموعة كبيرة من الكورسات بأسعار معقولة وأحيانًا مجانية.</p>
-                <a href="https://www.udemy.com" target="_blank">زيارة الموقع</a>
-            </div>
-            <div class="course">
-                <h2>Certificat</h2>
-                <p>منصة للحصول على شهادات معتمدة عبر الإنترنت.</p>
-                <a href="https://www.certificat.com" target="_blank">زيارة الموقع</a>
-            </div>
-        </section>
-    </main>
+
+    <!-- القسم المجاني -->
+    <section id="free-courses">
+        <div class="container">
+            <h2>كورسات مجانية</h2>
+            <ul>
+                <li><a href="#">دورة HTML و CSS</a></li>
+                <li><a href="#">دورة البرمجة بلغة Python</a></li>
+                <li><a href="#">دورة تصميم المواقع</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- القسم المدفوع -->
+    <section id="paid-courses">
+        <div class="container">
+            <h2>كورسات مدفوعة</h2>
+            <ul>
+                <li><a href="#">دورة تعلم الذكاء الاصطناعي</a></li>
+                <li><a href="#">دورة تطوير تطبيقات الموبايل</a></li>
+                <li><a href="#">دورة نظم التشغيل المتقدمة</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- أبرز الكورسات -->
+    <section id="top-courses">
+        <div class="container">
+            <h2>أبرز الكورسات</h2>
+            <ul>
+                <li><a href="#">دورة تعلم البرمجة بلغة JavaScript</a></li>
+                <li><a href="#">دورة تحليل البيانات</a></li>
+                <li><a href="#">دورة إدارة الأعمال</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- الفوتر (Footer) -->
     <footer>
-        <p>&copy; 2024 - موقع كورسات مجانية</p>
+        <div class="container">
+            <p>جميع الحقوق محفوظة &copy; 2024</p>
+        </div>
     </footer>
 </body>
 </html>
