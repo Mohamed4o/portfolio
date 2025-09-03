@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
             {/* Photo placeholder - will be replaced with actual photo */}
 
             <div className="circle">
-  <img src="/me.jpg" alt="My Photo" className="my-photo" />
+  <img src="/Mmm.jpeg" alt="My Photo" className="my-photo" />
 </div>
 
 
