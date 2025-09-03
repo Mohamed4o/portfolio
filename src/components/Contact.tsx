@@ -13,8 +13,8 @@ const Contact: React.FC = () => {
     {
       icon: MessageCircle,
       label: 'WhatsApp',
-      value: '+1 (555) 123-4567',
-      href: 'https://wa.me/15551234567',
+      value: '+201023086186',
+      href: 'https://wa.me/201023086186',
       gradient: 'from-green-500 to-emerald-500',
     },
     {
