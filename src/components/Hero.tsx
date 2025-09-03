@@ -19,9 +19,14 @@ const Hero: React.FC = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400 rounded-full blur-xl opacity-60 animate-pulse"></div>
             
             {/* Photo placeholder - will be replaced with actual photo */}
-            <div className="relative w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-6xl font-bold text-white shadow-2xl">
-              MH
-            </div>
+
+            <div className="circle">
+  <img src="/me.jpg" alt="My Photo" className="my-photo" />
+</div>
+
+
+
+            
             
             {/* Orbiting services */}
             {services.map((service, index) => {
