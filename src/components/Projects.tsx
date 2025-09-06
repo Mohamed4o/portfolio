@@ -4,10 +4,10 @@ import { ExternalLink, Github } from 'lucide-react';
 const Projects: React.FC = () => {
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'Full-stack e-commerce solution with AI-powered recommendations',
+      title: 'FullStack Booking System',
+      description: 'A full-stack booking system built with React and Supabase, featuring a public booking form and an admin dashboard for managing reservations.',
       image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tech: ['React', 'Node.js', 'AI'],
+      tech: ['React', 'Supabase', 'Backend'],
     },
     {
       title: 'AI Automation Dashboard',
