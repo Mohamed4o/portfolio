@@ -16,23 +16,23 @@ const Projects: React.FC = () => {
       description: 'Intelligent workflow automation system for business processes',
       image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800',
       tech: ['Python', 'TensorFlow', 'React'],
-      viewLink: 'https://google.com', // مؤقت
-      codeLink: 'https://github.com', // مؤقت
+      viewLink: 'https://google.com', // Placeholder
+      codeLink: 'https://github.com', // Placeholder
     },
     {
       title: 'System Integration Hub',
       description: 'Unified platform connecting multiple business systems',
       image: 'https://images.pexels.com/photos/159711/network-cable-ethernet-computer-159711.jpeg?auto=compress&cs=tinysrgb&w=800',
       tech: ['Node.js', 'GraphQL', 'Docker'],
-      viewLink: 'https://google.com', // مؤقت
-      codeLink: 'https://github.com', // مؤقت
+      viewLink: 'https://google.com', // Placeholder
+      codeLink: 'https://github.com', // Placeholder
     },
   ];
 
   return (
     <section className="relative py-20 px-4">
       <div className="max-w-6xl mx-auto">
-        {/* Spaceship dashboard header */}
+        {/* Header */}
         <div className="relative mb-16">
           <div className="bg-gradient-to-r from-gray-900/80 to-black/80 backdrop-blur-lg rounded-2xl p-6 border border-cyan-500/30">
             <h2 className="text-4xl md:text-5xl font-bold text-center bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
@@ -61,10 +61,10 @@ const Projects: React.FC = () => {
                 animationDelay: `${index * 0.7}s`,
               }}
             >
-              {/* Holographic border */}
+              {/* Glow border */}
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/50 to-blue-500/50 rounded-2xl blur-sm group-hover:blur-none transition-all duration-500"></div>
 
-              <div className="relative bg-black/90 rounded-2xl overflow-hidden border border-cyan-500/30 group-hover:border-cyan-400/60 transition-all duration-500">
+              <div className="relative bg-black/90 rounded-2xl overflow-hidden border border-cyan-500/30 group-hover:border-cyan-400/60 transition-all duration-500 h-full flex flex-col">
                 {/* Project image */}
                 <div className="relative overflow-hidden">
                   <img
@@ -75,17 +75,17 @@ const Projects: React.FC = () => {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
                 </div>
 
-                {/* Project content */}
-                <div className="p-6">
+                {/* Content */}
+                <div className="p-6 flex flex-col flex-grow">
                   <h3 className="text-xl font-bold mb-3 text-white group-hover:text-cyan-400 transition-colors duration-300">
                     {project.title}
                   </h3>
 
-                  <p className="text-gray-300 mb-4 text-sm leading-relaxed">
+                  <p className="text-gray-300 mb-4 text-sm leading-relaxed flex-grow">
                     {project.description}
                   </p>
 
-                  {/* Tech stack */}
+                  {/* Tech */}
                   <div className="flex flex-wrap gap-2 mb-4">
                     {project.tech.map((tech) => (
                       <span
@@ -97,9 +97,8 @@ const Projects: React.FC = () => {
                     ))}
                   </div>
 
-                  {/* Action buttons */}
-                  <div className="flex space-x-3">
-                    {/* View button */}
+                  {/* Buttons */}
+                  <div className="flex space-x-3 mt-auto">
                     <a
                       href={project.viewLink}
                       target="_blank"
@@ -110,7 +109,6 @@ const Projects: React.FC = () => {
                       <span>View</span>
                     </a>
 
-                    {/* Code button */}
                     <a
                       href={project.codeLink}
                       target="_blank"
